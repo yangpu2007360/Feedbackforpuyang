@@ -67,7 +67,7 @@ function FeedbackForm() {
 
             <form onSubmit={handleSubmit}>
 
-                <h2>How would you rate my resume? Please leave a comment or advice </h2>
+                <h2>How would you rate my resume? Please leave a comment or advice for my carrer. </h2>
                 <RatingSelect select={(rating) => setRating(rating)} />
                 <div className='input-group'>
                     <input onChange={handleChange} placeholder='Please leave a comment.' value={text} />
